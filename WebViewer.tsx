@@ -36,7 +36,7 @@ export const WebViewer: React.FC<WebViewerProps> = ({ url, onSuccess, onFail }) 
 
 
     // The Incode ID URL will change as screens progress. 
-    // The URL for a passing verification includes "success".  URL for failed verification includes "fail".
+    // The URL for a passing verification includes "success".  URL for failed verification includes "fail" or "error".
     const onNavigationChange = (navState: WebViewNavigation) => {
         const sourceUrl: string = navState?.url;
         if (sourceUrl) {
