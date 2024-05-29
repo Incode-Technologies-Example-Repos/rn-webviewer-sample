@@ -6,11 +6,7 @@ const WEB_APP_URL = process.env.EXPO_PUBLIC_INCODE_WEB_APP_URL as string;
 
 const styles = StyleSheet.create({
   container: {
-      flex: 1,
-      justifyContent: 'flex-start',
-      alignItems: 'stretch',
-      marginTop: 40,
-      marginBottom: 10
+      flex: 1
   },
   center: {
     margin: 'auto',

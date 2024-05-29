@@ -22,7 +22,25 @@ You will need to create a ```.env``` file.  This file holds the Incode ID URL.
 
 ```
 EXPO_PUBLIC_INCODE_WEB_APP_URL=https://demo.incode.id/?client_id=<your-incode-id-clientid>
+
 ```
+
+Or for a more sophisticated type implementation, involving a Kiosk, you can assign these query string parameters.
+
+```
+
+EXPO_PUBLIC_INCODE_WEB_APP_URL=https://demo.incode.id/?client_id=<your-incode-id-clientid>&form_factor=<see-below-info>&zoom_level=2
+
+```
+
+### Query string parameter definitions
+
+__client_id__ = Is a unique string that informs how requests should be routed inside Incode's platform
+
+__form_factor__ = Accepts a string value provded by incode which informs that app how the layout should appear and what cameras to use
+
+__zoom_level__ = Takes a number value between 1-3 which informs the camera what zoom level should be used (1 = a little zoom, 2 = medium zoom, 3 = big zoom ) 
+
 
 
 ## Setup and Run
