@@ -37,9 +37,9 @@ EXPO_PUBLIC_INCODE_WEB_APP_URL=https://demo.incode.id/?client_id=<your-incode-id
 
 __client_id__ = Is a unique string that informs how requests should be routed inside Incode's platform
 
-__form_factor__ = Accepts a string value provded by incode which informs that app how the layout should appear and what cameras to use
+__form_factor__ = (Optional) Accepts a string value provded by incode which informs that app how the layout should appear and what cameras to use
 
-__zoom_level__ = Takes a number value between 1-3 which informs the camera what zoom level should be used (1 = a little zoom, 2 = medium zoom, 3 = big zoom ) 
+__zoom_level__ = (Optional) Takes a number value between 1-3 which informs the camera what zoom level should be used (1 = a little zoom, 2 = medium zoom, 3 = big zoom ) 
 
 
 
